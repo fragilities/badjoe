@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!--Title-->  
+  <title>badjoe - shop</title>
+
+  <link rel="icon" href="xxxxx">
+  <link href="badjoe-master/shopstyle.css" type="text/css" rel="stylesheet">
+
+<!--CSS-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5%;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.zoom {
+  transition: transform 0.5s;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  display: inline-table;
+}
+
+.zoom:hover {
+  transform: scale(1.3); 
+}
+
+.product-category {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+}
+
+h4 span {
+  background:#fff; 
+  padding:0 10px; 
+}
+
+.product-text {
+  text-align: center;
+}
+
+a:link {
+  color: rgb(255,0,0);
+}
+
+a:visited {
+  color: rgb(128,128,128);
+}
+
+a:hover {
+  color: rgb(0,0,128);
+}
+
+.top-button {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: rgba(128,128,128,70%);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 600px; 
+  color: rgb(255,255,255);
+}
+
+</style>
+
+</head>
+
+<body>
+
+  <header style="margin-bottom: 15px">
+     <div class="container">
+       <div id="navbar">
+         <div id="logo">
+           <h1><a href="./index.html">badjoe</a></h1>
+         </div>
+         <nav>
+           <ul>
+             <li><a class="" href="./index.html">Home</a></li>
+             <li><a href="./about.html">About</a></li>
+             <li><a class="current" href="./shop.html">Shop</a></li>
+             <li><a href="./contact.html">Contact Us</a></li>
+           </ul>
+         </nav>
+       </div>
+     </div>
+   </header>
+
+   <main>
+    
+<!--Promotions-->
+
+    <div class="container" id="top">
+      <img src="badjoe-master/images/banner1.gif" width="100%" height="50%">
+    </div>
+    <br>
+    <br>
+  
+<!--Hoodie-->
+
+      <div class="container">
+        <h4 class="product-category"><span>HOODIE</span></h4>
+      </div>
+      <br>
+
+      <div class="row">
+       
+        <div class="column">
+          <img src="badjoe-master/images/hoodie1.jpg" width="50" height="100" alt="badjoe-hoodie1" class="zoom">
+          <p class="product-text">IDR 399,000</p>
+          <p class="product-text"><a href="./hoodie-aboo.html">Hoodie Aboo</a></p>
+        </div>    
+
+        <div class="column">
+          <img src="badjoe-master/images/hoodie2.jpg" width="50" height="100" alt="badjoe-hoodie2" class="zoom">
+          <p class="product-text">IDR 399,000</p>
+          <a href="./hoodie-galau.html"><p class="product-text">Hoodie Galau</p></a>
+        </div>    
+  
+        <div class="column">
+          <img src="badjoe-master/images/hoodie3.jpg" width="50" height="100" alt="badjoe-hoodie3" class="zoom">
+          <p class="product-text">IDR 399,000</p>
+          <a href="./hoodie-gbk.html"><p class="product-text">Hoodie GBK</p></a>
+        </div>    
+    
+       </div>
+       <br>
+
+<!--Shirt-->
+
+      <div class="container">
+           <h4 class="product-category"><span>SHIRT</span></h4>
+        </div>
+      </div>
+      <br>
+
+      <div class="row">
+
+        <div class="column">
+          <img src="badjoe-master/images/shirt1.jpg" width="50" height="100" alt="badjoe-shirt1" class="zoom">
+          <p class="product-text">IDR 399,000</p>
+          <a href="./kemeja-popeye.html"><p class="product-text">Kemeja Popeye</p></a>
+        </div>    
+        
+        <div class="column">
+          <img src="badjoe-master/images/shirt2.jpg" width="50" height="100" alt="badjoe-shirt2" class="zoom">
+          <p class="product-text">IDR 399,000</p>
+          <a href="./kemeja-apa-batik.html"><p class="product-text">Kemeja Apa Batik</p></a>
+        </div>
+
+        <div class="column">
+          <img src="badjoe-master/images/shirt3.jpg" width="50" height="100" alt="badjoe-shirt3" class="zoom">
+          <p class="product-text">IDR 399,000</p>
+          <a href="./kemeja-tujuh-belasan.html"><p class="product-text">Kemeja Tujuh Belasan</p></a>
+        </div>
+
+      </div>
+      <br>
+
+ <!--Tshirt-->
+
+      <div class="container">
+           <h4 class="product-category"><span>T-SHIRT</span></h4>
+        </div>
+
+      <div class="row">
+        
+        <div class="column">
+          <img src="badjoe-master/images/tshirt1.jpg" width="50" height="100" alt="badjoe-tshirt1" class="zoom">
+          <p class="product-text">IDR 399,000</p>
+          <a href="./kaos-teman-netflix.html"><p class="product-text">Kaos Teman Netflix</p></a>
+        </div>     
+
+        <div class="column">
+          <img src="badjoe-master/images/tshirt2.jpg" width="50" height="100" alt="badjoe-tshirt2" class="zoom">
+          <p class="product-text">IDR 399,000</p>
+          <a href="./kaos-model-cantik.html"><p class="product-text">Kaos Model Cantik</p></a>
+        </div>
+
+        <div class="column">
+          <img src="badjoe-master/images/tshirt3.jpg" width="50" height="100" alt="badjoe-tshirt3" class="zoom">
+          <p class="product-text">IDR 399,000</p>
+          <a href="./kaos-kalo-haus.html"><p class="product-text">Kaos Kalo Haus</p></a>
+        </div>
+        <br>
+
+
+  <!--Button-->
+
+  		<button type="button" class="top-button"><a href="#top">Back to top</a></button>
+
+    </main>
+
+</body>
+
+</html>
