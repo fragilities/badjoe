@@ -33,14 +33,13 @@ li {
 
 .current {
   text-decoration: underline !important;
-  color: #fff !important;
+  color: #333 !important;
 }
 
 /* cover */
 #cover {
   background: url('./images/cover.jpeg') no-repeat center center / cover;
   min-height: 700px;
-  /* filter: grayscale(100%); */
 }
 
 /* navbar */
@@ -49,25 +48,25 @@ header {
 }
 
 #navbar a {
-  color: #ccc;
+  color: #333;
   overflow: auto;
   padding: 10px 15px;
 }
 
 #navbar a:visited {
   text-decoration: none;
-  color: #ccc;
+  color: #333;
 }
 
 #navbar a:hover {
   text-decoration: underline;
-  color: white;
+  color: black;
 }
 
 #navbar #logo a:visited,
 #navbar #logo a:hover {
   text-decoration: none;
-  color: #ccc;
+  color: #333;
 }
 
 #logo {
@@ -82,34 +81,15 @@ nav li {
   float: left;
 }
 
-/* word-box */
-
-#word-box-border {
-  border: 1px #fff solid;
-  width: 300px;
-  margin: auto;
-  margin-top: 250px;
-  /* border-radius: 15px; */
-}
-
-#word-box-bg {
-  background: rgba(51, 51, 51, 0.5);
-  /* border-radius: 15px; */
-  /* background: #333; */
-  /* opacity: 0.33; */
-}
-
-#word-box h2,
-#word-box p {
-  /* opacity: 1; */
-  color: #fff;
-  padding: 5px 5px;
+/* catalog */
+.catalog-title {
   text-align: center;
 }
 
-
-#word-box a {
-  color: black;
+.catalog-product {
+  width: 23%;
+  float: left;
+  margin-right: 50px;
 }
 
 /* footer-bg */
