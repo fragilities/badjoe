@@ -26,8 +26,8 @@ li {
 
 .container {
   margin: auto;
-  max-width: 80%;
-  overflow: auto;
+  max-width: 90%;
+  overflow: none;
   padding: 0 20px;
 }
 
@@ -63,13 +63,16 @@ nav li {
 /* word-box */
 
 #word-box-border {
-  border: 2px #ccc solid;
+  border: 1px #fff solid;
   width: 300px;
   margin: auto;
+  margin-top: 250px;
+  /* border-radius: 15px; */
 }
 
 #word-box-bg {
   background: rgba(51, 51, 51, 0.33);
+  /* border-radius: 15px; */
   /* background: #333; */
   /* opacity: 0.33; */
 }
@@ -77,12 +80,12 @@ nav li {
 #word-box h2,
 #word-box p {
   /* opacity: 1; */
-  color: #ccc;
+  color: #fff;
   padding: 5px 5px;
   text-align: center;
 }
 
 
 #word-box a {
-  color: rgb(32, 141, 204);
+  color: rgb(239, 243, 6);
 }
