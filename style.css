@@ -40,6 +40,7 @@ li {
 #cover {
   background: url('./images/cover.jpeg') no-repeat center center / cover;
   min-height: 700px;
+  filter: grayscale(100%);
 }
 
 /* navbar */
@@ -53,18 +54,18 @@ header {
   padding: 10px 15px;
 }
 
-#navbar a:hover {
-  text-decoration: underline;
-  color: white;
-}
-
 #navbar a:visited {
   text-decoration: none;
   color: #ccc;
 }
 
-#navbar #logo a:hover,
-#navbar #logo a:visited {
+#navbar a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+#navbar #logo a:visited,
+#navbar #logo a:hover {
   text-decoration: none;
   color: #ccc;
 }
@@ -108,7 +109,7 @@ nav li {
 
 
 #word-box a {
-  color: rgb(239, 243, 6);
+  color: black;
 }
 
 /* footer-bg */
