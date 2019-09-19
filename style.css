@@ -24,21 +24,28 @@ li {
   clear: both;
 }
 
+.container {
+  margin: auto;
+  max-width: 80%;
+  overflow: auto;
+  padding: 0 20px;
+}
+
 /* cover */
 #cover {
   background: url('./images/cover.jpeg') no-repeat center center / cover;
-  min-height: 800px;
+  height: 100vh;
 }
 
 /* navbar */
 header {
   padding: 20px 50px;
-  background-color: #333;
-  opacity: 0.77;
 }
 
-#navbar {
+#navbar a {
   color: #ccc;
+  overflow: auto;
+  padding: 0px 15px;
 }
 
 #logo {
@@ -51,4 +58,10 @@ nav {
 
 nav li {
   float: left;
+}
+
+/* word-box */
+#word-box {
+  text-align: center;
+  vertical-align: middle;
 }
