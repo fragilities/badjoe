@@ -38,6 +38,10 @@ header {
 }
 
 #navbar {
+  color: #ccc;
+}
+
+#logo {
   float: left;
 }
 
