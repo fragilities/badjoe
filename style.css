@@ -120,6 +120,7 @@ footer {
 #footer-box {
   width: 500px;
   margin: auto;
+  padding: 10px 20px;
 }
 
 #footer-box p,
